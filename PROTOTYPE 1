@@ -4,3 +4,28 @@ Overview
 Prototype 1 demonstrates the core functionality of an offline livestock monitoring and hazard detection system.
 
 The prototype simulates livestock collar data, processes animal information locally, detects potential danger zones, and generates grazing safety recommendations without internet dependency.
+
+
+Implemented Features
+
+- Livestock ID tracking
+- Location-based risk detection
+- Offline hazard analysis
+- Automated alert generation
+- Grazing safety recommendation
+
+Current Technology
+Python
+Pandas
+Machine Learning Model
+Offline decision logic
+CSV-based livestock dataset
+Future Improvements
+
+Prototype 2 will include:
+
+Offline database storage
+Real-time monitoring loop
+Dashboard visualization
+GPS/IoT collar integration
+LoRa communication support
