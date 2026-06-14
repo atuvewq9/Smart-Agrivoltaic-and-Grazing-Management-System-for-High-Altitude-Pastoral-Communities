@@ -1,0 +1,6 @@
+Prototype 1: Offline Smart Pastoral Assistant
+Overview
+
+Prototype 1 demonstrates the core functionality of an offline livestock monitoring and hazard detection system.
+
+The prototype simulates livestock collar data, processes animal information locally, detects potential danger zones, and generates grazing safety recommendations without internet dependency.
