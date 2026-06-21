@@ -1,0 +1,6 @@
+zone,temperature,vegetation,water_access,terrain_safety,recommendation
+Grazing_A,15,High,Near,High,Good
+Grazing_B,5,Low,Far,Medium,Poor
+Grazing_C,12,Medium,Near,High,Good
+Grazing_D,2,Low,Far,Low,Poor
+Grazing_E,18,High,Near,High,Good
