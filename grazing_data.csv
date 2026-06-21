@@ -1,0 +1,6 @@
+location,pasture_condition,water_availability,recommendation
+"Nubra Valley, Ladakh","Good","Available","Continue grazing"
+"Changthang, Ladakh","Low","Limited","Shift livestock to better pasture"
+"Leh, Ladakh","Moderate","Limited","Plan shorter grazing routes"
+"Kargil, Ladakh","Moderate","Available","Monitor grazing conditions"
+"Pangong Region, Ladakh","Good","Available","Suitable for grazing"
