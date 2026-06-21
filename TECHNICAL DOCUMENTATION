@@ -1,0 +1,280 @@
+ Technical Documentation
+
+ Smart Agri Voltaic and Grazing Management System for High-Altitude Pastoral Communities
+ 1. Project Overview
+
+
+The Smart Agri Voltaic and Grazing Management System is an AI-powered monitoring and decision-support system designed for high-altitude pastoral communities.
+
+The system focuses on improving livestock monitoring, grazing management, and environmental decision-making in challenging regions like Ladakh.
+
+The current prototype (Prototype 1) focuses on:
+- Livestock data analysis
+- AI-based health monitoring
+- Hazard detection logic
+- Grazing recommendations
+- Dashboard-based visualization
+
+
+
+
+2. Problem Statement
+
+High-altitude pastoral regions face multiple challenges:
+
+- Harsh climatic conditions
+- Large and remote grazing areas
+- Limited connectivity
+- Difficulty in continuous livestock monitoring
+
+Traditional monitoring methods make it difficult for herders to track animal safety and grazing conditions efficiently.
+
+
+
+
+ 3. Proposed Solution
+
+The system combines Artificial Intelligence, data analysis, and an interactive application layer to provide actionable insights.
+
+Main modules:
+
+ Livestock Monitoring
+
+Tracks livestock information such as:
+
+- Animal details
+- Health conditions
+- Temperature
+- Status analysis
+
+
+ Hazard Detection
+
+Analyzes livestock conditions and identifies possible risks.
+
+The system generates:
+
+- Risk level
+- Safety status
+- Recommended actions
+
+
+ Grazing Management
+
+Analyzes environmental and grazing-related data to support better grazing decisions.
+
+
+ Offline-First Approach
+
+The system is designed for remote areas where internet availability may be limited.
+
+
+
+
+ 4. System Architecture
+
+
+User
+ |
+ |
+Dashboard Interface (Streamlit)
+ |
+ |
+Python Backend
+ |
+ |
+AI Decision Engine
+ |
+ |
+SQLite Database / Dataset
+ |
+ |
+Analysis & Recommendations
+
+
+The architecture converts livestock and environmental data into useful guidance for pastoral communities.
+
+
+---
+
+ 5. Technology Stack
+
+
+- Programming Language
+
+Python
+
+
+ Data Processing
+
+Libraries:
+
+- Pandas
+- NumPy
+
+
+Used for:
+
+- Data handling
+- Data preprocessing
+- Dataset analysis
+
+
+## Machine Learning / AI
+
+Scikit-learn and AI logic are used for:
+
+- Data analysis
+- Pattern identification
+- Risk detection
+- Recommendation generation
+
+
+ Database
+
+SQLite
+
+Used for:
+
+- Storing livestock records
+- Managing health information
+- Retrieving animal data efficiently
+
+
+ Application Layer
+
+Streamlit dashboard
+
+Used for:
+
+- Interactive user interface
+- Livestock monitoring display
+- Health insights
+- Recommendations
+
+
+
+
+ 6. Database Design
+
+
+Livestock Table
+
+
+Fields:
+
+- id
+- name
+- species
+- location
+- temperature
+- health_status
+
+
+Example:
+
+
+ ID  Name Species Status 
+
+1    Tashi   Yak   Healthy
+
+
+
+ Health Report Table
+
+
+Fields:
+
+- report_id
+- animal_id
+- disease
+- recommendation
+
+
+Relationship:
+
+
+Livestock
+
+
+
+Health Reports
+
+
+One livestock record can have multiple health reports.
+
+
+
+ 7. AI Decision Engine Workflow
+
+
+Input:
+
+- Livestock information
+- Temperature data
+- Environmental conditions
+
+
+Processing:
+
+
+Data Collection
+
+
+
+Data Processing
+
+
+
+Risk Analysis
+
+
+
+Health Classification
+
+
+
+Recommendation Generation
+
+
+
+Output example:
+
+
+Status:
+Healthy
+
+
+Risk Level:
+SAFE
+
+
+Recommendation:
+Continue normal grazing
+
+
+
+
+ 8. Application Workflow
+
+
+1. User opens dashboard
+
+2. Livestock data is loaded
+
+3. Backend processes information
+
+4. AI logic analyzes conditions
+
+5. Dashboard displays:
+
+- Animal information
+- Health status
+- Risk level
+- Recommendations
+- Environmental insights
+
+
+
+
+
