@@ -27,6 +27,8 @@ Difficulty in livestock monitoring
 Renewable energy expansion also creates the challenge of balancing solar infrastructure growth with traditional grazing practices.
 
 Current Prototype (Prototype 1)
+LIVE DEMO:
+https://smart-agrivoltaic-grazing-system.streamlit.app/
 
 The current prototype implements:
 
