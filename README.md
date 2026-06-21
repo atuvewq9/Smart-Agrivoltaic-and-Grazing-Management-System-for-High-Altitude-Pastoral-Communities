@@ -1,158 +1,107 @@
-# Smart-Agrivoltaic-and-Grazing-Management-System-for-High-Altitude-Pastoral-Communities
-AI-powered agrivoltaic and grazing management system for sustainable Pashmina pastoral communities in Ladakh.
-# Smart Agrivoltaic and Grazing Management System for High-Altitude Pastoral Communities
+Smart Agrivoltaic and Grazing Management System for High-Altitude Pastoral Communities
 
-## Overview
+AI-powered livestock monitoring and grazing decision-support system for sustainable pastoral communities in Ladakh.
 
-An AI-powered decision-support system designed to help Changpa herders and Pashmina goat communities in Eastern Ladakh adapt to renewable energy expansion while preserving traditional grazing practices.
+Overview
 
-The project focuses on creating coexistence between large-scale solar infrastructure and pastoral livelihoods through smart agrivoltaic planning, offline livestock monitoring, and intelligent grazing management.
+The Smart Agrivoltaic and Grazing Management System is an AI-based decision-support platform designed to support Changpa herders and Pashmina goat communities in high-altitude regions.
 
----
+The system focuses on:
 
-# Problem Statement
+Livestock health monitoring
+Risk detection
+Grazing insights
+Data-driven recommendations
 
-Large solar parks in Eastern Ladakh occupy valuable grazing land traditionally used by Changpa herders and their Pashmina goats. At the same time, the region faces challenges such as:
+The goal is to support coexistence between renewable energy development and traditional pastoral livelihoods.
 
-* Limited internet connectivity
-* Harsh weather conditions
-* Vast and remote grazing areas
-* Difficulty in livestock monitoring and safety management
+Problem Statement
 
-The challenge is to enable renewable energy development while protecting pastoral livelihoods and ensuring sustainable land use.
+Eastern Ladakh faces challenges including:
 
----
+Harsh climatic conditions
+Large remote grazing regions
+Limited connectivity
+Difficulty in livestock monitoring
 
-# Proposed Solution
+Renewable energy expansion also creates the challenge of balancing solar infrastructure growth with traditional grazing practices.
 
-## 1. Elevated Dual-Use Solar Infrastructure
+Current Prototype (Prototype 1)
 
-Instead of conventional ground-mounted solar farms, the system proposes elevated solar structures that allow grazing activities beneath solar panels.
+The current prototype implements:
 
-### Key Features:
+AI Livestock Monitoring
 
-* Elevated solar panel installation
-* Adequate spacing between solar rows
-* Preservation of vegetation underneath
-* Animal movement pathways
-* Weather-resistant design for:
+The system analyzes livestock data and provides:
 
-  * Snow
-  * High winds
-  * UV exposure
-  * Extreme temperatures
+Animal health status
+Temperature monitoring
+Risk classification
+Recommendations
+Smart Decision Engine
 
-### Impact:
+A Python-based AI logic layer processes livestock information and generates actionable insights.
 
-* Renewable energy generation continues
-* Grazing land remains productive
-* Land-use conflict is reduced
+Example:
 
----
+Status: Healthy
 
-## 2. Offline Smart Livestock Tracking
+Risk Level: SAFE
 
-A lightweight livestock monitoring system using low-power technologies.
+Recommendation:
+Continue normal grazing
+Offline Data Management
 
-### Components:
+SQLite database stores livestock records and health information.
 
-* GPS receiver
-* Low-power microcontroller
-* LoRa communication module
-* Solar-assisted battery system
+The system works with local datasets, making it suitable for remote environments.
 
-The system enables animal tracking without dependence on internet connectivity.
+Interactive Dashboard
 
-### Impact:
+A Streamlit dashboard provides:
 
-* Helps herders locate animals
-* Reduces livestock loss
-* Records seasonal migration patterns
+Livestock information
+Health insights
+Environmental analysis
+Recommendations
 
----
+##Future Development
 
-## 3. Hazard Zone Protection System
+Future versions will integrate:
 
-A safety system using virtual boundaries (geofencing) around solar infrastructure.
+IoT Livestock Tracking
+GPS monitoring
+Environmental sensors
+Real-time data collection
+Offline Communication
+LoRa communication
+Edge AI processing
+Advanced Intelligence
+Satellite/GIS integration
+Pasture health prediction
+Grazing optimization
 
-### Protected Zones:
+##Technology Stack
+Current Implementation
+Python
+Pandas
+NumPy
+SQLite
+Streamlit
+Scikit-learn
 
-* Inverter stations
-* Transformer yards
-* Transmission equipment
-* Maintenance areas
+##Future Technologies
+IoT
+GPS
+LoRa
+Edge AI
+GIS Mapping
 
-When livestock enters a restricted zone:
+##Expected Impact
+Better livestock monitoring
+Reduced animal losses
+Improved grazing decisions
+Support for sustainable pastoral communities
 
-* Boundary crossing is detected
-* Alert is transmitted through LoRa communication
-* Herder receives notification
 
-### Impact:
 
-* Prevents livestock accidents
-* Improves safety around renewable infrastructure
-
----
-
-## 4. Offline Grazing Intelligence
-
-A local decision-support system that works in areas with limited connectivity.
-
-The system provides offline access to:
-
-* Grazing corridors
-* Water sources
-* Solar layouts
-* Safe routes
-* Hazard zones
-
-Using collected environmental and movement data, the system recommends:
-
-* Suitable grazing locations
-* Healthier pasture areas
-* Safer movement paths
-
-### Impact:
-
-Enables informed decisions even in remote high-altitude regions.
-
----
-
-## 5. Village Solar Communication Hub
-
-A solar-powered local communication and data storage unit.
-
-### Functions:
-
-* Collects livestock collar data
-* Stores information locally
-* Works without cellular networks
-* Synchronizes data when connectivity becomes available
-
-### Impact:
-
-* Reliable operation in remote regions
-* Reduced dependence on internet infrastructure
-
----
-
-# Future Scope
-
-* AI-based pasture health prediction
-* Satellite and GIS integration
-* Real IoT livestock tracking devices
-* Edge AI implementation
-* Expansion to other high-altitude pastoral communities
-
----
-
-# Tech Stack (Planned)
-
-* Python
-* Machine Learning
-* GIS Mapping
-* IoT Concepts
-* LoRa Communication
-* Data Analytics
-* Offline-first Application Design
