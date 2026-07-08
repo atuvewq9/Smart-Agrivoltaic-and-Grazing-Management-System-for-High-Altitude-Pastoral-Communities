@@ -6,7 +6,7 @@ Overview
 
 The Smart Agrivoltaic and Grazing Management System is an AI-based decision-support platform designed to support Changpa herders and Pashmina goat communities in high-altitude regions.
 
-The system focuses on:
+The system focuses:
 
 Livestock health monitoring
 Risk detection
