@@ -1,8 +1,8 @@
-Smart Agrivoltaic and Grazing Management System for High-Altitude Pastoral Communities
+-Smart Agrivoltaic and Grazing Management System for High-Altitude Pastoral Communities-
 
 AI-powered livestock monitoring and grazing decision-support system for sustainable pastoral communities in Ladakh.
 
-Overview
+##Overview
 
 The Smart Agrivoltaic and Grazing Management System is an AI-based decision-support platform designed to support Changpa herders and Pashmina goat communities in high-altitude regions.
 
